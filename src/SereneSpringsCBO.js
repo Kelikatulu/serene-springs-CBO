@@ -11,9 +11,9 @@ style={{ backgroundColor: BG, fontFamily: "Inter, system-ui, sans-serif" }}
 {/* Header */}
 <header className="text-center py-10">
 <img 
-src="/logo.png"
+src="/Logo.jpeg"
 alt="Serene Springs CBO Logo"
-className="mx-auto w-32 h-32 object-contain" />   
+className="mx-auto w-32 h-32 object-contain"
 />
 <h1 className="text-3xl md:text-4xl font-semibold mt-4 text-gray-900">
 Serene Springs Community-Based Organization (CBO)
@@ -21,7 +21,7 @@ Serene Springs Community-Based Organization (CBO)
 <p className="italic text-lg text-gray-700">“Let’s Talk, Let’s Heal.”</p>
 </header>
 
-/* Navigation */}
+{/* Navigation */}
       <nav className="bg-white/60 backdrop-blur-md py-3 flex flex-wrap justify-center border-b border-gray-300">
         {[
           "Home",
@@ -159,10 +159,10 @@ Serene Springs Community-Based Organization (CBO)
           You can upload up to 10 photos below. Replace the <code>src</code> with your actual photo URLs.
         </p>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
-          {Array.from({ length: 10 }).map((_, i) => (
+          {['/1.jpeg', '/2.jpeg', '/3.jpeg', '/Faith.jpeg'].map((img, i) => (
             <img
               key={i}
-              src={`/images/photo${i + 1}.jpg`}
+              src={img}
               alt={`Community Event ${i + 1}`}
               className="w-full aspect-square object-cover rounded-lg shadow-sm bg-white/30"
             />
