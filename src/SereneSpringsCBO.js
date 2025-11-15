@@ -88,10 +88,10 @@ Serene Springs Community-Based Organization (CBO)
           <div className="bg-white/60 p-4 rounded-lg shadow-sm">
             <h3 className="font-semibold mb-2">Leadership Team</h3>
             <ul className="list-disc list-inside text-gray-700 text-sm">
-              <li>Chairperson: [Insert Name]</li>
-              <li>Secretary: [Insert Name]</li>
-              <li>Treasurer: [Insert Name]</li>
-              <li>Programs Coordinator: [Insert Name]</li>
+              <li>Chairperson: Martin Mwenda</li>
+              <li>Secretary: Keran Mwiti</li>
+              <li>Treasurer: Gloria Gakii</li>
+              <li>Programs Coordinator: Faith Minayo</li>
             </ul>
           </div>
 
