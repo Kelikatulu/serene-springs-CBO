@@ -1,27 +1,27 @@
 import React from "react";
 export default function SereneSpringsCBO() {
-        const BG = "#c7d6c8"; // Soft sage green from logo background
-const accent = "#3a7d44"; // Green tone from logo’s floral stem
+  const BG = "#c7d6c8"; // Soft sage green from logo background
+  const accent = "#3a7d44"; // Green tone from logo’s floral stem
 
-return (
-<div
-className="min-h-screen text-gray-800"
-style={{ backgroundColor: BG, fontFamily: "Inter, system-ui, sans-serif" }}
-> 
-{/* Header */}
-<header className="text-center py-10">
-<img 
-src="/Logo.jpeg"
-alt="Serene Springs CBO Logo"
-className="mx-auto w-32 h-32 object-contain"
-/>
-<h1 className="text-3xl md:text-4xl font-semibold mt-4 text-gray-900">
-Serene Springs Community-Based Organization (CBO)
-</h1>
-<p className="italic text-lg text-gray-700">“Let’s Talk, Let’s Heal.”</p>
-</header>
+  return (
+    <div
+      className="min-h-screen text-gray-800"
+      style={{ backgroundColor: BG, fontFamily: "Inter, system-ui, sans-serif" }}
+    >
+      {/* Header */}
+      <header className="text-center py-10">
+        <img
+          src="/logo.png"
+          alt="Serene Springs CBO Logo"
+          className="mx-auto w-32 h-32 object-contain"
+        />
+        <h1 className="text-3xl md:text-4xl font-semibold mt-4 text-gray-900">
+          Serene Springs Community-Based Organization (CBO)
+        </h1>
+        <p className="italic text-lg text-gray-700">“Let’s Talk, Let’s Heal.”</p>
+      </header>
 
-{/* Navigation */}
+      {/* Navigation */}
       <nav className="bg-white/60 backdrop-blur-md py-3 flex flex-wrap justify-center border-b border-gray-300">
         {[
           "Home",
@@ -39,7 +39,7 @@ Serene Springs Community-Based Organization (CBO)
             className="mx-3 text-sm md:text-base font-medium text-gray-800 hover:text-green-700 transition"
             style={{ color: "inherit" }}
           >
-{item}
+            {item}
           </a>
         ))}
       </nav>
@@ -55,17 +55,15 @@ Serene Springs Community-Based Organization (CBO)
           empowered, and united community.
         </p>
       </section>
-{/* About Section */}
+      {/* About Section */}
       <section id="about-us" className="max-w-5xl mx-auto px-6 py-12 bg-white/40 rounded-xl">
         <h2 className="text-2xl md:text-3xl font-semibold mb-4" style={{ color: accent }}>
           About Us
         </h2>
         <p className="text-gray-700 mb-4">
-          <strong>Who We Are:</strong> Serene Springs CBO is a registered non-profit initiative working to promote mental health awareness, youth empowerment, and social well-being.
+          <strong>Who We Are:</strong> Serene Springs Community-Based Organization (CBO) is a registered community group dedicated to promoting health, education, environmental conservation, women's empowerment, youth development, livelihoods, and good governance. Based in Umoja, Embakasi West, we work with grassroots communities to spark lasting change through training, advocacy, and sustainable projects.
         </p>
-        <p className="text-gray-700 mb-4">
-          <strong>Founded:</strong> 2025
-        </p>
+
         <p className="text-gray-700 mb-4">
           <strong>Vision:</strong> A mentally healthy, empowered, and socially cohesive community.
         </p>
@@ -98,7 +96,7 @@ Serene Springs Community-Based Organization (CBO)
           <div className="bg-white/60 p-4 rounded-lg shadow-sm">
             <h3 className="font-semibold mb-2">Registration</h3>
             <p className="text-sm text-gray-700">
-              Registered under the Ministry of Gender, Social Services and Affirmative Action – Reg. No: [Insert Number]
+              Registered under the Ministry of Gender, Social Services and Affirmative Action – Reg. No: DSD/47/286/02/121809
             </p>
           </div>
         </div>
@@ -214,7 +212,7 @@ Serene Springs Community-Based Organization (CBO)
         </div>
       </section>
 
-{/* Footer */}
+      {/* Footer */}
       <footer className="text-center text-sm text-gray-700 py-6">
         <p>© 2025 Serene Springs Community-Based Organization. All Rights Reserved.</p>
         <p>Promoting mental wellness and community empowerment.</p>
