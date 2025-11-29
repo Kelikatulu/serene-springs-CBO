@@ -155,9 +155,6 @@ Serene Springs Community-Based Organization (CBO)
         <h2 className="text-2xl md:text-3xl font-semibold mb-4" style={{ color: accent }}>
           Gallery
         </h2>
-        <p className="text-gray-700 mb-4 text-sm">
-          You can upload up to 10 photos below. Replace the <code>src</code> with your actual photo URLs.
-        </p>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
           {['/1.jpeg', '/2.jpeg', '/3.jpeg', '/Faith.jpeg'].map((img, i) => (
             <img

@@ -39,9 +39,13 @@ http://localhost:3000
 
 ## Deployment
 
-This project is deployed on Vercel. Every push to the main branch automatically triggers a deployment.
+This project uses **GitHub Actions** for automated deployment.
 
-**Live Site:** https://serene-springs-qzsssx7cw-kelikatulus-projects.vercel.app/
+**Live Site:** https://serenespringscbo.org
+
+Every push to the `main` branch automatically builds and deploys to production.
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed setup instructions.
 
 ## Available Scripts
 
