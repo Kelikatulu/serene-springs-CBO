@@ -1,5 +1,18 @@
-/* Optional custom styles */
-body {
+/* Minimal App.css for your project */
+
+/* Reset some default margins/padding */
+body, html {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+/* Optional: smooth scroll for navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: default font if Tailwind font not applied globally */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
 }
