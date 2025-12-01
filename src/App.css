@@ -1,4 +1,5 @@
-/* Optional styling for global app */
-.App {
-  text-align: center;
+/* Optional custom styles */
+body {
+  margin: 0;
+  padding: 0;
 }
